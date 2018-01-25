@@ -25,7 +25,7 @@ def reconstruction_to_video(images_folder='images',output_video='GPlates_reconst
     #make video from set of image
     
     for img in images:
-        frame = cv2.imread(os.path.join(image_folder, img))
+        frame = cv2.imread(os.path.join(images_folder, img))
         # add text on a frame
         
         age=re.findall('(\d+)', img)[0]+' Ma'
