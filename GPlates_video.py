@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[3]:
-
 def GPlates_video(image_folder='images',video_name='GPlates_reconstruction.avi',fps=15, descending=True):
     import os
     import cv2
@@ -46,9 +41,6 @@ def GPlates_video(image_folder='images',video_name='GPlates_reconstruction.avi',
 
         cv2.destroyAllWindows()
     video.release()
-
-
-# In[ ]:
 
 
 
