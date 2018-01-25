@@ -7,8 +7,11 @@ OpenCV is necessary
 
 Content:
 images	- set of reconstruction images for example.py
+
 GPlates_video.py	main script, has only one function reconstruction_to_video for now
+
 example.py -  make video from 'images' folder files.
+
 README.md
 
 For now script has only one function:
