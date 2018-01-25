@@ -1,9 +1,9 @@
-def GPlates_video(image_folder='images',video_name='GPlates_reconstruction.avi',fps=15, descending=True):
+def GPlates_video(images_folder='images',output_video='GPlates_reconstruction.avi',fps=15, descending=True):
     import os
     import cv2
     import re
-    ## 
-    images = [img for img in os.listdir(image_folder)]
+    
+    images = [img for img in os.listdir(images_folder)]
     
     # fonts settings
     font                   = cv2.FONT_HERSHEY_SIMPLEX
@@ -15,7 +15,7 @@ def GPlates_video(image_folder='images',video_name='GPlates_reconstruction.avi',
     # presettings of video
     frame = cv2.imread(os.path.join(image_folder, images[0]))
     height, width, layers = frame.shape
-    video = cv2.VideoWriter(video_name, -1, fps, (width,height))
+    video = cv2.VideoWriter(output_video, -1, fps, (width,height))
     
     # descending=True means from older to younger ages
     if descending==True:
