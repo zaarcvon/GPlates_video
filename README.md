@@ -1,16 +1,19 @@
 # GPlates_video
 Simple script that makes video from a set of GPlates images.
 
-This is my first GitHub project. I would appreciate if someone helped me with improving it.
+This is my first GitHub project. I would appreciate if someone help me with improving it.
 
-The input is a set of images, exported as screenshots or colour rasters. The name of an each image has to contain reconstruction time of a frame (rounded to the closiest integer) - %d in GPlates export settings
+For now has only one function:
+    reconstruction_to_video
+
+The input is a set of images, exported as screenshots or colour rasters. The name of an each image has to contain reconstruction time of a frame (rounded to integer) - %d in GPlates export settings
 
 The output is a video in avi format. 
 
 **Signature:** 
 
 ```
-reconstructions_to_video(images_folder='images', output_video='GPlates_reconstruction.avi',fps=15,descending=True)
+reconstruction_to_video(images_folder='images', output_video='GPlates_reconstruction.avi',fps=15,descending=True)
 ```
 
 **Parameters:**
