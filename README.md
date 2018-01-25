@@ -12,8 +12,6 @@ GPlates_video.py	main script, has only one function reconstruction_to_video for 
 
 example.py -  make video from 'images' folder files.
 
-README.md
-
 
 function reconstruction_to_video:
 
@@ -30,7 +28,10 @@ reconstruction_to_video(images_folder='images', output_video='GPlates_reconstruc
 **Parameters:**
     
 `images_folder` - string, default='images', folder that contains images
+
 `output_video` - string, default='GPlates_reconstruction.avi', name of output video file
+
 `fps` - integer, default=15, frame per seconds
+
 `descending`  - boolean, default=True,  order of images. True -  from older to younger ages.
 
