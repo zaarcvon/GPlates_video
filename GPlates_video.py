@@ -1,4 +1,4 @@
-def GPlates_video(images_folder='images',output_video='GPlates_reconstruction.avi',fps=15, descending=True):
+def reconstruction_to_video(images_folder='images',output_video='GPlates_reconstruction.avi',fps=15, descending=True):
     import os
     import cv2
     import re
