@@ -3,7 +3,7 @@ Simple script that makes video from a set of GPlates images.
 
 This is my first GitHub project. I would appreciate if someone help me with improving it.
 
-For now has only one function:
+For now script has only one function:
     reconstruction_to_video
 
 The input is a set of images, exported as screenshots or colour rasters. The name of an each image has to contain reconstruction time of a frame (rounded to integer) - %d in GPlates export settings
