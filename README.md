@@ -1,26 +1,21 @@
 # GPlates_video
-simple script that make video from set of GPlates images.
+Simple script that makes video from a set of GPlates images.
 
-my first GitHub project. I would be appreciate if someone said wise words how to improve it.
+This is my first GitHub project. I would appreciate if someone helped me with improving it.
 
-The input is set of images, exported as screenshots or colour rasters. Name of each image have to contain reconstruction time of frame(rounded to integer) - %d in GPlates export settings
+The input is a set of images, exported as screenshots or colour rasters. The name of an each image has to contain reconstruction time of a frame (rounded to the closiest integer) - %d in GPlates export settings
 
-The output is video in avi format. 
+The output is a video in avi format. 
 
-Signature: reconstructions_to_video(images_folder='images', output_video='GPlates_reconstruction.avi',fps=15,descending=True)
+**Signature:** 
 
-Parameters
+```
+reconstructions_to_video(images_folder='images', output_video='GPlates_reconstruction.avi',fps=15,descending=True)
+```
+
+**Parameters:**
     
-    images_folder - string, default='images' 
-            Folder that contains images
-    
-    output_video - string, default='GPlates_reconstruction.avi' 
-            Name of output video file
-    
-    fps -  integer, default=15
-            Frame per seconds
-    
-    descending  - boolean, default=True
-            Order of images. True means from older to younger ages.
- 
-
+`images_folder` - string, default='images', folder that contains images
+`output_video` - string, default='GPlates_reconstruction.avi', name of output video file
+`fps` - integer, default=15, frame per seconds
+`descending`  - boolean, default=True,  order of images. True means from older to younger ages.
