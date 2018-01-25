@@ -13,7 +13,7 @@ def reconstruction_to_video(images_folder='images',output_video='GPlates_reconst
     lineType               = 2
 
     # presettings of video
-    frame = cv2.imread(os.path.join(image_folder, images[0]))
+    frame = cv2.imread(os.path.join(images_folder, images[0]))
     height, width, layers = frame.shape
     video = cv2.VideoWriter(output_video, -1, fps, (width,height))
     
