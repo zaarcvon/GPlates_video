@@ -1,7 +1,15 @@
 # GPlates_video
 Simple script that makes video from a set of GPlates images.
-
 This is my first GitHub project. I would appreciate if someone help me with improving it.
+
+Script has to work with Python 2 and 3, but tested with Python 3.
+OpenCV is necessary
+
+Content:
+images	- set of reconstruction images for example.py
+GPlates_video.py	main script, has only one function reconstruction_to_video for now
+example.py -  make video from 'images' folder files.
+README.md
 
 For now script has only one function:
     reconstruction_to_video
@@ -22,3 +30,4 @@ reconstruction_to_video(images_folder='images', output_video='GPlates_reconstruc
 `output_video` - string, default='GPlates_reconstruction.avi', name of output video file
 `fps` - integer, default=15, frame per seconds
 `descending`  - boolean, default=True,  order of images. True means from older to younger ages.
+
