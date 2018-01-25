@@ -3,7 +3,7 @@ simple script that make video from set of GPlates images.
 
 my first GitHub project. I would be appreciate if someone said wise words how to improve it.
 
-Script get set of image exported as images or colour rasters. Images have to have reconstruction time of frame(rounded to integer) - %d in the names
+The input is set of images, exported as screenshots or colour rasters. Name of each image have to contain reconstruction time of frame(rounded to integer) - %d in GPlates export settings
 The output is video in avi format. 
 
 args of functions:
