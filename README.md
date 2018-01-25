@@ -7,12 +7,14 @@ The input is set of images, exported as screenshots or colour rasters. Name of e
 
 The output is video in avi format. 
 
-args of functions:
+Signature: reconstructions_to_video(images_folder='images', output_video='GPlates_reconstruction.avi',fps=15,descending=True)
+
+Parameters
     
-    image_folder - string, default='images' 
+    images_folder - string, default='images' 
             Folder that contains images
     
-    video_name - string, default='GPlates_reconstruction.avi' 
+    output_video - string, default='GPlates_reconstruction.avi' 
             Name of output video file
     
     fps -  integer, default=15
