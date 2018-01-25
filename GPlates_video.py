@@ -1,4 +1,25 @@
 def reconstruction_to_video(images_folder='images',output_video='GPlates_reconstruction.avi',fps=15, descending=True):
+    """
+    Make video from set of reconstruction images
+
+    Parameters
+    ----------
+    images_folder : string, default  'images' 
+        folder that contains images 
+    output_video : string, default  'GPlates_reconstruction.avi' 
+        name of output video file 
+    fps - integer, default  15 
+        Frame per seconds 
+    descending - boolean, default True
+        Order of images. True - from older to younger ages.
+
+    Returns
+    -------
+    None
+    
+    Videofile in main folder
+    """
+    
     import os
     import cv2
     import re
