@@ -65,20 +65,14 @@ def reconstruction_to_video(images_folder='images',output_video='GPlates_reconst
         age=re.findall('(\d+)', img)[0]   # get age from filename
         frame = cv2.imread(os.path.join(images_folder, img)) 
         
-        # make a chart with line on a frame
-        if chart==True:
-            scale_line=scale.copy()
-            line_position=int(height/150*int(age))
-            cv2.line(scale_line,(0,line_position),(chart_width,line_position),(0,255,0),5)
-            frame = numpy.concatenate((scale_line, frame), axis=1)
-        
-        #  add text on a frame
+		#  add text on a frame
         cv2.putText(frame,age+' Ma', 
             bottomLeftCornerOfText, 
             font, 
             fontScale,
             fontColor,
             lineType)
+        
         
         # add frame to video
         video.write(frame)
