@@ -14,8 +14,11 @@ How to work:
 if you have only GPlates 2.0 and want to make a video from GPlates reconstruction images:
 1. Setup Python 2.7.14. Simple way is install Miniconda from here - https://conda.io/miniconda.html
 2. Run Anaconda Prompt from Start panel (Windows) and type
+            
             conda install opencv-python
+            
             conda install jupyter
+
 3. download all files from this repository and unpack it to the home folder of miniconda  
 (C:\Users\'your username'\ in windows, but you able to know home folder by take the next step and see what folder will be displayed)
 
