@@ -20,7 +20,9 @@ if you have only GPlates 2.0 and want to make a video from GPlates reconstructio
 
 4. run Jupyter-Notebook (Miniconda2) from start panel, open file example.ipynb and push Run button.
     
-    That's all! You get simple example video how it works. This function also have some arguments that help you to change settings of video
+    That's all! You get simple example video how it works. This function also have some arguments that help you to change settings of video.
+
+Stratigraphic chart works only till 150 Ma, if you would like to make chart for older reconstructions please contact with me.
 
     
 
@@ -38,3 +40,5 @@ The input is a set of images, exported as screenshots or colour rasters from GPl
 The name of an each image has to contain reconstruction time of a frame (- %d in GPlates export settings)
 
 The output is a video in avi format. 
+
+If you have ideas and suggestions please contact with me  -  zaarcvon@gmail.com 
