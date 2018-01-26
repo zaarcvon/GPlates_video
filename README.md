@@ -5,7 +5,8 @@ You can find example of resulted video at https://youtu.be/0bu8CVB1KV4
 
 This is my first GitHub project. I would appreciate if someone help me with improving it.
 
-Script has to work with Python 2 and 3
+Script has to work with Python 2 and 3.
+
 OpenCV is necessary
 
 How to work:
